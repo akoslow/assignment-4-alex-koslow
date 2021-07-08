@@ -39,3 +39,20 @@ header li{
   list-style: none;
   display: inline-block;
 }
+
+.container{
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.main-picture{
+  padding-top: 125px;
+  position: relative;
+}
+
+.title-text{
+  position: absolute;
+  top: 625px;
+  color: black;
+  background: #ffffffad;
+}
