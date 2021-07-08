@@ -103,3 +103,34 @@ header li{
 .josh-2{
   margin: 20px 0px;
 }
+
+h4{
+  margin-top: 20px;
+  border-top: 5px solid black;
+}
+
+.go{
+  color: #00B2A9
+}
+
+.go-spurs{
+  color: #EF426F
+}
+
+.go-2{
+  color: #FF8200
+}
+
+.spurs-logo{
+  animation: spurs 5s linear infinite;
+}
+
+@keyframes spurs {
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+
+}
